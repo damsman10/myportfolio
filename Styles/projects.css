@@ -1,0 +1,67 @@
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 8.9rem 0;
+}
+
+.left-flex {
+    flex-basis: 40rem;
+    min-width: 30%;
+    margin-bottom: 1rem;
+}
+.right-flex {
+    flex-basis: 40rem;
+    min-width: 30%;
+}
+
+.image2 {
+    flex-basis: 100%;
+}
+
+.image2 img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.right-flex .project-info {
+    margin: 1rem 2rem 2rem 3rem;
+    background-color: #d8d9e0;
+    width: 60%;
+    border-style: ridge;
+}
+.right-flex .project-info h4{
+    padding: 1rem 0 0 2rem;
+    color: black;
+    font-family: sans-serif;
+}
+.right-flex .project-info p{
+    padding: 0 2rem;
+    color: black;
+    font-family: 'Lora', serif;
+    word-wrap: break-word;
+}
+
+#p-border-bottom{
+    padding-bottom: 1rem;
+}
+
+.right-flex .project-desc {
+    margin: 0 2rem 2rem 3rem;
+    width: 60%;
+}
+.right-flex .project-desc h4{
+    padding: 1rem 0 0 0;
+    color: black;
+    font-family: sans-serif;
+    
+}
+.right-flex .project-desc p {
+    padding: 0 0 1rem 0;
+    color: black;
+    font-family: 'Lora', serif;
+    
+}
+
+
